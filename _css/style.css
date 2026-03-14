@@ -1,0 +1,183 @@
+/* ====== BASIC RESET ====== */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/* -----First Header------ */
+
+.mainHeader {
+	text-align: center;
+	justify-content: center;
+	text-align: center;
+	background-color:  #0f172a;
+	padding: 20px;
+	letter-spacing: 2.4px;
+    line-height: 40px;
+	
+}
+
+/* -------mainHeader Button------- */
+
+.mainHeader button {
+	width: 100px;
+	border-radius: 5px;
+	border: none;
+	width: 200px;
+	background-color: #0f172a;
+	color: white;
+	cursor: pointer;
+	letter-spacing: 2.4px;
+	height: 30px;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+.mainHeader a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.mainHeader a:hover {
+	color: black;
+}
+
+.mainHeader button:hover {
+	transition: 1s;
+	color: black;
+	background: white;
+}
+
+.mainHeader h1 {
+	color: white;
+	font-size: 40px;
+}
+
+.mainHeader p {
+	color: white;
+	font-size: 20px;
+}
+
+.mainHeader span {
+	color: aqua;
+}
+/* ---- Container ---- */
+.container {
+	font-size: 16px;
+	justify-content: space-between;
+	text-align: center;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+	letter-spacing: 0.1px;
+}
+
+/* ---- About Me ---- */
+.text-box {
+	color: navy;
+}
+
+.text-box p {
+	color: black;
+	margin-top: 15px;
+}
+
+/* ---- Mission ---- */
+.mission h1{
+	margin-top: 60px;
+	color: green;
+}
+
+.mission p {
+	font-size: 16px;
+	margin-top: 20px;
+	color: black;
+}
+
+.contact h1 {
+	margin-top: 60px;
+	color: gold;
+}
+
+.contact p {
+	margin-top: 20px;
+	color: #000000;
+}
+
+/* ====== Responsive Design ====== */
+@media (max-width: 768px) {
+    .mainHeader {
+
+		text-align: center;
+		justify-content: center;
+		text-align: center;
+		background-color:  #0f172a;
+		padding: 10px;
+		letter-spacing: 2.4px;
+		line-height: 40px;
+	}
+
+	.mainHeader h1 {
+		font-size: 30px;
+	}
+
+	.mainHeader p {
+		font-size: 20px;
+	}
+
+	.mainHeader button {
+		width: 90%;
+		font-size: 15px;
+	}
+
+	span {
+		font-size: 20px;
+	}
+
+	.container {
+			font-size: 20px;
+			justify-content: space-between;
+			text-align: center;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			letter-spacing: 1.0px;
+	}
+	.mission p {
+		font-size: 15px;
+	}
+
+
+}
+
+footer {
+	background-color: #0f172a;
+	color: white;
+	text-align: center;
+	justify-content: space-between;
+	
+}
+
+
+footer button {
+	background-color: #0f172a;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	height: -15px;
+	cursor: pointer;
+}
+
+footer button:hover {
+	transition: 1s;
+	color: black;
+	background-color: #fff;
+	text-align: center;
+}
